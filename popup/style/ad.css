@@ -1,0 +1,39 @@
+#amkad {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 30rem;
+
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 0.3rem;
+    background-color: rgb(220, 220, 220);
+}
+
+#amkad > img {
+    height: 4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#amkad > #ad_texts {
+    margin-top: 0.3rem;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 0.5rem;
+    float: right;
+}
+
+#ad_texts > a, #ad_texts > a:visited, #ad_texts > a:hover {
+    color: red;
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
