@@ -7,9 +7,16 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style/ad.css">
+    <script>
+        const closeAd = () => {
+            const amkad = document.querySelector('#amkad');
+            amkad.remove();
+        }
+    </script>
 </head>
 <body>
     <div id="amkad">
+        <div id="close" onclick="closeAd()">x</div>
         <div id="ad_texts">
             <div>
                 Eddig hazugságban éltél!
